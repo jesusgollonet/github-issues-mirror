@@ -1,0 +1,20 @@
+{
+  "name": "github-issues-mirror",
+  "version": "0.1.0",
+  "description": "Mirror GitHub issues locally for offline/agent use",
+  "bin": {
+    "gh-issues-mirror": "bin/gh-issues-mirror.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "test": "node scripts/smoke-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusgollonet/github-issues-mirror.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
